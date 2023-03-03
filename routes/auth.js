@@ -5,7 +5,8 @@ const path =require('path');
 //import mongoose and connect to mongodb
 const mongoose=require('mongoose');
 mongoose.Promise=global.Promise;
-var conStr="mongodb://localhost:27017/userAuth";
+//var conStr="mongodb://localhost:27017/userAuth";
+var conStr="mongodb+srv://quess02:jotam021198@cluster0.pgudpjp.mongodb.net/test"
 mongoose.connect(conStr);
 
 //user model 
