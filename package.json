@@ -16,6 +16,7 @@
   "author": "Tawanda Kanda",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "*"
+    "mongoose": "*",
+    "express-session":"*"
   }
 }
