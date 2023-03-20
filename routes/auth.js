@@ -40,7 +40,7 @@ const authenticate=(req,res,next)=>{
                     }
                 }else{
                     //user doesn't exist
-                    console.log(doc)
+                    console.log(doc,email,password)
                     req.session.flash='user does not exist'
                     redirectLogin(req,res,next);
                 }
